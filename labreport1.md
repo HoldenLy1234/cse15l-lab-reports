@@ -2,7 +2,7 @@
  This is a tutorial on how to log into a course-specific account on ieng6.
 
 # Step #1 (Installing Visual Studio Code)
-Installing VS Code, you'll want to go to [this website](https://code.visualstudio.com/), and click on the download for windows, or if you have a mac you can click the arrow and download it for macOS/Linux. Follow the steps and download VS Code. From here, you should open VS Code and get a page like this.
+Installing VS Code, you'll want to go to [this website](https://code.visualstudio.com/) and click on the download for windows, or if you have a mac you can click the arrow and download it for macOS/Linux. Follow the steps and download VS Code. From here, you should open VS Code and get a page like this.
 ![picture taken from week1](https://ucsd-cse15l-w22.github.io/images/vscode.png) 
 
 # Step #2 (Remotely Connecting)
@@ -11,7 +11,9 @@ After that you'll want to remotely connect to your UCSD CSE course specific acco
 
 # Step #3 (Trying some commands)
 
-You can try commands both on the remote computer that you ssh'd to, and on your computer. cd is a command that can be used to change your directory, where your command line is currently. Here I move from my computer's desktop to a folder I had on my computer. ![cd](https://i.imgur.com/haKk1PM.png), you can also try the command ls, which shows you the list of files in the directory. ![ls](https://i.imgur.com/rUmdRyz.png), other commands you can try are cp, cat.
+You can try commands both on the remote computer that you ssh'd to, and on your computer. cd is a command that can be used to change your directory, where your command line is currently. Here I move from my computer's desktop to a folder I had on my computer. 
+![cd](https://i.imgur.com/haKk1PM.png), you can also try the command ls, which shows you the list of files in the directory. 
+![ls](https://i.imgur.com/rUmdRyz.png), other commands you can try are cp, cat.
 
 # Step #4 (Moving files with scp)
 
