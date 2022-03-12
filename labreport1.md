@@ -33,13 +33,14 @@ Once you've added it, you can check whether or not it showed up with the command
 ## Step #5 (Setting up an SSH Key)
 You can use an SSH key so that you don't have to enter in your login information every time, you do this by going to the terminal and using the command ```ssh-keygen```.
 
-![keygen](blob:https://imgur.com/efea3efc-75f3-4896-a43f-60ddd47152b4) 
+![keygen](https://i.imgur.com/eGnU0OR.png) 
 
 This is what it should look like, this will generate a key for your computer, it will generate two keys, a public one (id_rsa.pub), and a private one (id_rsa). You want to move the public key to the ssh directory using the scp command leading to the .ssh directory in the remote computer. The command is this ```scp /Users/(your name)/.ssh/id_rsa.pub cs15lwi22(yourid)@ieng6.ucsd.edu:~/.ssh/authorized_keys.```
 
 ## Step #6 (Optimizing remote running)
 You can optimize your inputs to the terminal by putting multiple commands on a single line. This for example could be something like logging onto the remote computer and checking the home directory at the same time, or compiling and running a program in the same line. This could save keystrokes just like having a ssh key saves keystrokes so you don't have to enter things. 
 
-![sameline](blob:https://imgur.com/4718ff1d-de73-44c4-bb4a-8055de74e198) 
+![sameline](https://i.imgur.com/pG6hePu.png) 
 
 This is compiling and running a program at the same time.
+Normally you would have to compile, then enter, then run the program, all while having to ssh and enter the password. This equates to about 6 keystrokes saving just from the enter, because normally you would have to enter, but if you count the password, it could be up to 15-20 keystrokes saved. Esepcially if you have the ssh keygen.
