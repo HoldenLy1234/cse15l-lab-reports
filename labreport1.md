@@ -10,7 +10,7 @@ After that you'll want to remotely connect to your UCSD CSE course specific acco
 
 ![picture](https://i.imgur.com/FAKathb.png). 
 
-After this, you can figure out your course specific account for CSE15L using [this link](https://sdacs.ucsd.edu/~icc/index.php). After that, you can open up your terminal in VS Code, and connect to the server using the command '''ssh cs15lwi22(your ID)@ieng6@ucsd.edu.'''
+After this, you can figure out your course specific account for CSE15L using [this link](https://sdacs.ucsd.edu/~icc/index.php). After that, you can open up your terminal in VS Code, and connect to the server using the command "ssh cs15lwi22(your ID)@ieng6@ucsd.edu."
 
 ## Step #3 (Trying some commands)
 
