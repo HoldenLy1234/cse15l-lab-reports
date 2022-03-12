@@ -36,9 +36,9 @@ For the test repository it returned
 
 ## Snippet 3
 I used commonmark to see what it should return,and it returns this
-![snippet3]https://i.imgur.com/9eCF6tS.png)
+![snippet3](https://i.imgur.com/9eCF6tS.png)
 
-This means that the link that should be returned is https://ucsd-cse15l-w22.github.io/ 
+This means that the link that should be returned is "https://ucsd-cse15l-w22.github.io/" 
 
 For my repository it returned
 
