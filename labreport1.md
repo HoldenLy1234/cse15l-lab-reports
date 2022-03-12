@@ -10,14 +10,14 @@ After that you'll want to remotely connect to your UCSD CSE course specific acco
 
 ![picture](https://i.imgur.com/FAKathb.png). 
 
-After this, you can figure out your course specific account for CSE15L using [this link](https://sdacs.ucsd.edu/~icc/index.php). After that, you can open up your terminal in VS Code, and connect to the server using the command "ssh cs15lwi22(your ID)@ieng6@ucsd.edu."
+After this, you can figure out your course specific account for CSE15L using [this link](https://sdacs.ucsd.edu/~icc/index.php). After that, you can open up your terminal in VS Code, and connect to the server using the command ```ssh cs15lwi22(your ID)@ieng6@ucsd.edu.```
 
 ## Step #3 (Trying some commands)
 
 You can try commands both on the remote computer that you ssh'd to, and on your computer. cd is a command that can be used to change your directory, where your command line is currently. Here I move from my computer's desktop to a folder I had on my computer. 
 ![cd](https://i.imgur.com/haKk1PM.png), 
 
-you can also try the command ls, which shows you the list of files in the directory. 
+you can also try the command ```ls```, which shows you the list of files in the directory. 
 ![ls](https://i.imgur.com/rUmdRyz.png)
 
 , other commands you can try are cp, cat.
@@ -33,7 +33,7 @@ You can use an SSH key so that you don't have to enter in your login information
 
 ![keygen](blob:https://imgur.com/efea3efc-75f3-4896-a43f-60ddd47152b4) 
 
-This is what it should look like, this will generate a key for your computer, it will generate two keys, a public one (id_rsa.pub), and a private one (id_rsa). You want to move the public key to the ssh directory using the scp command leading to the .ssh directory in the remote computer. The command is this '''scp /Users/(your name)/.ssh/id_rsa.pub cs15lwi22(yourid)@ieng6.ucsd.edu:~/.ssh/authorized_keys.'''
+This is what it should look like, this will generate a key for your computer, it will generate two keys, a public one (id_rsa.pub), and a private one (id_rsa). You want to move the public key to the ssh directory using the scp command leading to the .ssh directory in the remote computer. The command is this ```scp /Users/(your name)/.ssh/id_rsa.pub cs15lwi22(yourid)@ieng6.ucsd.edu:~/.ssh/authorized_keys.```
 
 ## Step #6 (Optimizing remote running)
 You can optimize your inputs to the terminal by putting multiple commands on a single line. This for example could be something like logging onto the remote computer and checking the home directory at the same time, or compiling and running a program in the same line. This could save keystrokes just like having a ssh key saves keystrokes so you don't have to enter things. 
