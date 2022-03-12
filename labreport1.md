@@ -6,7 +6,7 @@ Installing VS Code, you'll want to go to [this website](https://code.visualstudi
 ![picture taken from week1](https://ucsd-cse15l-w22.github.io/images/vscode.png) 
 
 ## Step #2 (Remotely Connecting)
-After that you'll want to remotely connect to your UCSD CSE course specific account. You'll want to check whether or not you have OpenSSH if you're running windows. You can do this by opening up powershell on your computer, and using this command (Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'). It should return something that looks like this 
+After that you'll want to remotely connect to your UCSD CSE course specific account. You'll want to check whether or not you have OpenSSH if you're running windows. You can do this by opening up powershell on your computer, and using this command ```(Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*').``` It should return something that looks like this 
 
 ![picture](https://i.imgur.com/FAKathb.png). 
 
@@ -14,24 +14,24 @@ After this, you can figure out your course specific account for CSE15L using [th
 
 ## Step #3 (Trying some commands)
 
-You can try commands both on the remote computer that you ssh'd to, and on your computer. cd is a command that can be used to change your directory, where your command line is currently. Here I move from my computer's desktop to a folder I had on my computer. 
+You can try commands both on the remote computer that you ssh'd to, and on your computer. ```cd```, is a command that can be used to change your directory, where your command line is currently. Here I move from my computer's desktop to a folder I had on my computer. 
 ![cd](https://i.imgur.com/haKk1PM.png), 
 
 you can also try the command ```ls```, which shows you the list of files in the directory. 
 ![ls](https://i.imgur.com/rUmdRyz.png)
 
-, other commands you can try are cp, cat.
+, other commands you can try are ```cp , cat.```,
 
 ## Step #4 (Moving files with scp)
 
-You can use the command scp to move files from your home computer into the remote computer. You can use the command this way (scp (your file, in this case WhereAmI.java was used) cs15lwi22(your ID)@ieng6.ucsd.edu:~/) It will prompt for you to login with your password, like this 
+You can use the command scp to move files from your home computer into the remote computer. You can use the command this way ```(scp (your file, in this case WhereAmI.java was used) cs15lwi22(your ID)@ieng6.ucsd.edu:~/)``` It will prompt for you to login with your password, like this 
 
 ![scp](https://i.imgur.com/uBJ2Mzi.png). 
 
 Once you've added it, you can check whether or not it showed up with the command (ls) in the SSH directory.
 
 ## Step #5 (Setting up an SSH Key)
-You can use an SSH key so that you don't have to enter in your login information every time, you do this by going to the terminal and using the command ssh-keygen.
+You can use an SSH key so that you don't have to enter in your login information every time, you do this by going to the terminal and using the command ```ssh-keygen```.
 
 ![keygen](blob:https://imgur.com/efea3efc-75f3-4896-a43f-60ddd47152b4) 
 
