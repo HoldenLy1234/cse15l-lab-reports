@@ -24,7 +24,9 @@ you can also try the command ```ls```, which shows you the list of files in the 
 
 ## Step #4 (Moving files with scp)
 
-You can use the command scp to move files from your home computer into the remote computer. You can use the command this way (scp (your file, in this case WhereAmI.java was used) cs15lwi22(your ID)@ieng6.ucsd.edu:~/) It will prompt for you to login with your password, like this ![scp](https://i.imgur.com/uBJ2Mzi.png). 
+You can use the command scp to move files from your home computer into the remote computer. You can use the command this way (scp (your file, in this case WhereAmI.java was used) cs15lwi22(your ID)@ieng6.ucsd.edu:~/) It will prompt for you to login with your password, like this 
+
+![scp](https://i.imgur.com/uBJ2Mzi.png). 
 
 Once you've added it, you can check whether or not it showed up with the command (ls) in the SSH directory.
 
