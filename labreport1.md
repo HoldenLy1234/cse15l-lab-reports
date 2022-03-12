@@ -43,4 +43,4 @@ You can optimize your inputs to the terminal by putting multiple commands on a s
 ![sameline](https://i.imgur.com/pG6hePu.png) 
 
 This is compiling and running a program at the same time.
-Normally you would have to compile, then enter, then run the program, all while having to ssh and enter the password. This equates to about 6 keystrokes saving just from the enter, because normally you would have to enter, but if you count the password, it could be up to 15-20 keystrokes saved. Esepcially if you have the ssh keygen.
+Normally you would have to compile, then enter, then run the program, all while having to ssh and enter the password. This equates to about 6 keystrokes saving just from the enter, because normally you would have to enter, but if you count the password, it could be up to 15-20 keystrokes saved. Esepcially if you have the ssh keygen. With the optimized method, it is literally just typing in the commands and pressing enter one time, as opposed to many times.
